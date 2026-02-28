@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object1",
+  "%Name":"obj_horse_leg_top",
   "eventList":[],
   "managed":true,
-  "name":"Object1",
+  "name":"obj_horse_leg_top",
   "overriddenProperties":[],
   "parent":{
     "name":"horse objects",
@@ -22,10 +22,10 @@
   "physicsSensor":false,
   "physicsShape":1,
   "physicsShapePoints":[
-    {"x":20.0,"y":16.0,},
-    {"x":53.0,"y":16.0,},
-    {"x":53.0,"y":50.0,},
-    {"x":20.0,"y":50.0,},
+    {"x":1.0,"y":0.0,},
+    {"x":12.0,"y":0.0,},
+    {"x":12.0,"y":16.0,},
+    {"x":1.0,"y":16.0,},
   ],
   "physicsStartAwake":true,
   "properties":[],
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite1",
-    "path":"sprites/Sprite1/Sprite1.yy",
+    "name":"spr_horse_leg_top",
+    "path":"sprites/spr_horse_leg_top/spr_horse_leg_top.yy",
   },
   "spriteMaskId":null,
   "visible":true,

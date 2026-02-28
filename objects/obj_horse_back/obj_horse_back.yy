@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Object1",
-  "eventList":[],
+  "%Name":"obj_horse_back",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Object1",
+  "name":"obj_horse_back",
   "overriddenProperties":[],
   "parent":{
     "name":"horse objects",
@@ -22,10 +25,10 @@
   "physicsSensor":false,
   "physicsShape":1,
   "physicsShapePoints":[
-    {"x":20.0,"y":16.0,},
-    {"x":53.0,"y":16.0,},
-    {"x":53.0,"y":50.0,},
-    {"x":20.0,"y":50.0,},
+    {"x":17.0,"y":20.0,},
+    {"x":61.0,"y":20.0,},
+    {"x":61.0,"y":45.0,},
+    {"x":17.0,"y":45.0,},
   ],
   "physicsStartAwake":true,
   "properties":[],
@@ -33,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite1",
-    "path":"sprites/Sprite1/Sprite1.yy",
+    "name":"spr_horse_back",
+    "path":"sprites/spr_horse_back/spr_horse_back.yy",
   },
   "spriteMaskId":null,
   "visible":true,
