@@ -2,8 +2,8 @@ fixture = physics_fixture_create();
 physics_fixture_set_circle_shape(fixture, 12);
 
 //pin the tail on the horse
-tail = instance_create_depth(x-17, y, 9999, obj_horse_tail);
-physics_joint_revolute_create(id, tail, x-17, y, -15, 15, true, 0, 0, 0, 0);
+tail = instance_create_depth(x-0, y, 9999, obj_horse_tail);
+physics_joint_revolute_create(id, tail, x-0, y, -15, 15, false, 0, 0, 0, 0);
 
 //pin the front of the horse on the horse
 /*
