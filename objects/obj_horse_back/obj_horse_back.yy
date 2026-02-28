@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_horse_back",
-    "path":"sprites/spr_horse_back/spr_horse_back.yy",
+    "name":"spr_horse_body_back",
+    "path":"sprites/spr_horse_body_back/spr_horse_body_back.yy",
   },
   "spriteMaskId":null,
   "visible":true,
