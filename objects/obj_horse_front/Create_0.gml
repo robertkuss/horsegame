@@ -13,3 +13,5 @@ for (i = 0; i < 2; i++){
 	physics_joint_revolute_create(legB, hoof, x+(17*i), yf+8, -3, 3, true, 0, 0, 0, 0);
 	physics_fixture_delete(fixture);
 }
+head = instance_create_depth(x+7, y-7, -1, obj_horse_head);
+physics_joint_revolute_create(id, head, x+7, y-7, -15, 15, true, 0, 0, 0, 0);
