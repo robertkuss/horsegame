@@ -21,7 +21,7 @@ for (i = 0; i < 2; i++){
 	array_push(legsB,legB);
 	//hoof = instance_create_depth((x-35)+(16*i), y+38, 9999, obj_horse_hoof);
 	//array_push(hooves, hoof);
-	physics_joint_revolute_create(id, legA, (x-35)+(16*i), y+10, -20, 20, true, 0, 0, 0, 0);
+	physics_joint_revolute_create(id, legA, (x-35)+(16*i), y+10, -20, 20, false, 0, 0, 0, 0);
 	physics_joint_revolute_create(legA, legB, (x-35)+(16*i), y+24, -20, 20, false, 0, 0, 0, 0);
 	//physics_joint_revolute_create(legB, hoof, x+(17*i), y+8, -3, 3, true, 0, 0, 0, 0);
 }
