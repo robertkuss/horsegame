@@ -1,27 +1,27 @@
 {
   "$GMSprite":"v2",
-  "%Name":"bg",
+  "%Name":"spr_cactuses",
   "bboxMode":0,
-  "bbox_bottom":255,
-  "bbox_left":0,
-  "bbox_right":319,
-  "bbox_top":0,
+  "bbox_bottom":63,
+  "bbox_left":1,
+  "bbox_right":15,
+  "bbox_top":2,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"e864e685-fdcb-472e-8823-ac5585587798","name":"e864e685-fdcb-472e-8823-ac5585587798","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2becc179-362a-4c59-b165-fffeabd866d6","name":"2becc179-362a-4c59-b165-fffeabd866d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":256,
+  "height":65,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"b984ae24-716c-4f45-b719-2fe99458af2e","blendMode":0,"displayName":"default","isLocked":false,"name":"b984ae24-716c-4f45-b719-2fe99458af2e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"69204252-ed58-4511-9a70-9e68257a8ddb","blendMode":0,"displayName":"default","isLocked":false,"name":"69204252-ed58-4511-9a70-9e68257a8ddb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"bg",
+  "name":"spr_cactuses",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"bg",
+    "%Name":"spr_cactuses",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"bg",
+    "name":"spr_cactuses",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e864e685-fdcb-472e-8823-ac5585587798","path":"sprites/bg/bg.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d603bc6f-ec18-4196-b14a-f311d8f1aebf","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2becc179-362a-4c59-b165-fffeabd866d6","path":"sprites/spr_cactuses/spr_cactuses.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a7ae29c0-3b99-4dc9-8ca6-3912ddaaf7c0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":320,
+  "width":17,
 }

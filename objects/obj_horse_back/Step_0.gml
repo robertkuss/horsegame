@@ -26,6 +26,7 @@ if (keyboard_check(ord("X"))){
 }
 
 
+
 /*if(keyboard_check(ord("E"))){
 	
 }
