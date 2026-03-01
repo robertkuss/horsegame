@@ -23,7 +23,7 @@
   ],
   "name":"spr_horse_leg_bottom",
   "nineSlice":null,
-  "origin":0,
+  "origin":9,
   "parent":{
     "name":"sprites",
     "path":"folders/sprites.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":6,
     "yorigin":0,
   },
   "swatchColours":null,

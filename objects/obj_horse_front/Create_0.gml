@@ -1,15 +1,15 @@
 
-fixture = physics_fixture_create();
-back = instance_nearest(x,y,obj_horse_back);
-xf = back.x;
-yf = back.y;
-physics_fixture_set_circle_shape(fixture, 12);
+//fixture = physics_fixture_create();
+//back = instance_nearest(x,y,obj_horse_back);
+//xf = back.x;
+//yf = back.y;
+//physics_fixture_set_circle_shape(fixture, 12);
 for (i = 0; i < 2; i++){
-	legA = instance_create_depth(x+(17*i), yf+13, 9997, obj_horse_leg);
-	legB = instance_create_depth(x+(17*i), yf+26, 9998, obj_horse_leg);
-	hoof = instance_create_depth(x+(17*i), yf+8, 9999, obj_horse_hoof);
-	physics_joint_revolute_create(id, legA, x+(17*i), yf+13, -30, 30, true, 0, 0, 0, 0);
-	physics_joint_revolute_create(legA, legB, x+(17*i), yf+26, -30, 30, true, 0, 0, 0, 0);
-	physics_joint_revolute_create(legB, hoof, x+(17*i), yf+8, -3, 3, true, 0, 0, 0, 0);
-	physics_fixture_delete(fixture);
+	legA = instance_create_depth(x+(16*i), y+10, 9997, obj_horse_leg);
+	legB = instance_create_depth(x+(16*i), y+24, 9998, obj_horse_leg);
+	hoof = instance_create_depth(x+(16*i), y+38, 9999, obj_horse_hoof);
+	physics_joint_revolute_create(id, legA, x+(16*i), y+10, -30, 30, true, 0, 0, 0, 0);
+	physics_joint_revolute_create(legA, legB, x+(16*i), y+24, -30, 30, false, 0, 0, 0, 0);
+	physics_joint_revolute_create(legB, hoof, x+(16*i), y+38, -3, 3, true, 0, 0, 0, 0);
+	//physics_fixture_delete(fixture);
 }
