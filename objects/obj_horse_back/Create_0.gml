@@ -1,3 +1,4 @@
+audio_play_sound(snd_neigh,0,false);
 //array for the ids of hooves
 hooves = [];
 legsA = [];
@@ -14,7 +15,7 @@ physics_joint_revolute_create(id, tail, x-40, y-5, -10, 10, false, 0, 0, 0, 0);
 
 
 //Create front
-front = instance_create_depth(x, y, 10, obj_horse_front);
+front = instance_create_depth(x, y, 1000, obj_horse_front);
 front_joint = physics_joint_revolute_create(id, front, x, y, -1, 1, false, 0, 0, 0, 0);
 saddle_spawned = false;
 

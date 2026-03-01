@@ -32,5 +32,5 @@ for (i = 0; i < 2; i++){
     //physics_fixture_delete(fixture);
 }
 
-head = instance_create_depth(x+15, y-15, -1, obj_horse_head);
-physics_joint_revolute_create(id, head, x+15, y-15, -20, 20, true, 0, 0, 0, 0);
+head = instance_create_depth(x+15, y-20, -1, obj_horse_head);
+physics_joint_revolute_create(id, head, x+15, y-22, -20, 20, true, 0, 0, 0, 0);

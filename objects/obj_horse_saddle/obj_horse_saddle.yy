@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_horse_saddle",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_floorwall","path":"objects/obj_floorwall/obj_floorwall.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_horse_saddle",
   "overriddenProperties":[],
@@ -14,11 +16,11 @@
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
-  "physicsGroup":1,
+  "physicsGroup":2,
   "physicsKinematic":false,
   "physicsLinearDamping":0.1,
   "physicsObject":true,
-  "physicsRestitution":3.0,
+  "physicsRestitution":2.0,
   "physicsSensor":false,
   "physicsShape":1,
   "physicsShapePoints":[
