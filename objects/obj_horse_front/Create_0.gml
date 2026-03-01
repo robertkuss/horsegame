@@ -2,6 +2,8 @@ hooves = [];
 legsA = [];
 legsB = [];
 
+image_index = 0;
+image_speed = 0;
 
 /*legA = instance_create_depth((x-3)+(16*0), y+10, 9997, obj_horse_leg);
 array_push(legsA,legA);

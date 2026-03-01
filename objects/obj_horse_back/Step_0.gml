@@ -1,17 +1,30 @@
-if(keyboard_check(ord("Q")) ){
+if(dead){
+	alarm[0]=1;
+}
+
+if(keyboard_check(ord("Q"))){
 	legsA[0].phy_rotation += 15;
 	legsB[0].phy_rotation = legsA[0].phy_rotation+50;
-	legsA[1].phy_rotation -= 15;
+	legsA[1].phy_rotation -= 10;
 	legsB[1].phy_rotation = legsA[1].phy_rotation+50;
 	
 }
 
 if (keyboard_check(ord("W"))){
-	legsA[0].phy_rotation -= 15;
+	legsA[0].phy_rotation -= 10;
 	legsB[0].phy_rotation = legsA[0].phy_rotation+50;
 	legsA[1].phy_rotation += 15;
 	legsB[1].phy_rotation = legsA[1].phy_rotation+50;
 }
+
+if (keyboard_check(ord("G"))){
+	room_restart();	
+}
+
+if (keyboard_check(ord("X"))){
+	dead = true;
+}
+
 
 /*if(keyboard_check(ord("E"))){
 	

@@ -3,14 +3,20 @@ hooves = [];
 legsA = [];
 legsB = [];
 
+image_index = 0;
+image_speed = 0;
+
+dead = false;
+
 //pin the tail on the horse
 tail = instance_create_depth(x-40, y-5, 9999, obj_horse_tail);
-physics_joint_revolute_create(id, tail, x-40, y-5, -15, 15, false, 0, 0, 0, 0);
+physics_joint_revolute_create(id, tail, x-40, y-5, -10, 10, false, 0, 0, 0, 0);
 
 
 //Create front
 front = instance_create_depth(x, y, 10, obj_horse_front);
-physics_joint_revolute_create(id, front, x, y, -1, 1, false, 0, 0, 0, 0);
+front_joint = physics_joint_revolute_create(id, front, x, y, -1, 1, false, 0, 0, 0, 0);
+saddle_spawned = false;
 
 
 //create the legs
