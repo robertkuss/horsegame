@@ -25,6 +25,7 @@
     {"id":{"name":"obj_floorwall","path":"objects/obj_floorwall/obj_floorwall.yy",},},
     {"id":{"name":"obj_horse_back","path":"objects/obj_horse_back/obj_horse_back.yy",},},
     {"id":{"name":"obj_horse_front","path":"objects/obj_horse_front/obj_horse_front.yy",},},
+    {"id":{"name":"obj_horse_head","path":"objects/obj_horse_head/obj_horse_head.yy",},},
     {"id":{"name":"obj_horse_hoof","path":"objects/obj_horse_hoof/obj_horse_hoof.yy",},},
     {"id":{"name":"obj_horse_leg_bottom","path":"objects/obj_horse_leg_bottom/obj_horse_leg_bottom.yy",},},
     {"id":{"name":"obj_horse_leg","path":"objects/obj_horse_leg/obj_horse_leg.yy",},},
